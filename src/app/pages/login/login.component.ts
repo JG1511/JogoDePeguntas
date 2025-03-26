@@ -20,5 +20,6 @@ export class LoginComponent {
     if (!this.userForm.valid) {
       return console.error("O formulário não está válido");
     }
+    
   }
 }
